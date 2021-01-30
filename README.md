@@ -40,6 +40,6 @@ Docker メモ
 * 永続化データはボリュームマウントする
 * DockerHubの非公式ベンダー提供のイメージは必ずDockerFileを確認する
 * Docker Compose コマンドで起動したらDocker Compose コマンドで終了するまでDocker Compose Fileは変更しない
-
+* 秘密鍵やパスワードなどの非公開情報はDockerイメージには入れない（DockerFileでADDやCOPYしない）
 
 以上
